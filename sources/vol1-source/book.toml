@@ -9,3 +9,6 @@ build-dir = "../../books/vol1"
 [output.html]
 additional-css = ["assets/style.css"]
 additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+
+[output.html.print]
+enable = false
