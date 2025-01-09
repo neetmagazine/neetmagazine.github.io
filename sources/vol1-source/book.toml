@@ -1,6 +1,11 @@
 [book]
-authors = ["kurome"]
-language = "en"
-multilingual = false
+language = "ja"
 src = "src"
-title = "test"
+title = "ニートマガジン vol.1"
+
+[build]
+build-dir = "../../books/vol1"
+
+[output.html]
+additional-css = ["assets/style.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
