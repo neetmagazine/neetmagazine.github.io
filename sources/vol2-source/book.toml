@@ -1,0 +1,14 @@
+[book]
+language = "ja"
+src = "src"
+title = "ニートマガジン vol.2"
+
+[build]
+build-dir = "../../books/vol2"
+
+[output.html]
+additional-css = ["assets/style.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+
+[output.html.print]
+enable = false
